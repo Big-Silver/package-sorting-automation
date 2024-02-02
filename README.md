@@ -22,8 +22,12 @@ Modify the sort function parameters with the dimensions and mass of the package 
 
 ```
 const package1 = sort(100, 80, 120, 15); // STANDARD
-const package2 = sort(160, 90, 170, 25); // SPECIAL
+const package2 = sort(160, 90, 170, 19); // SPECIAL
 const package3 = sort(200, 160, 180, 30); // REJECTED
+
+console.log(package1)
+console.log(package2)
+console.log(package3)
 ```
 
 Save the changes.
